@@ -1,0 +1,35 @@
+.tasks-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.filter-button {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+}
+
+.filter-button.active {
+    border-color: orange;
+}
+
+.clear-button {
+    color: red;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
